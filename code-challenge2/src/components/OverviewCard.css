@@ -1,0 +1,77 @@
+.overview-card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.overview-card h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.overview-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 15px;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1; /* Distribute space equally */
+  min-width: 150px; /* Minimum width for each stat item */
+}
+
+.stat-item h3 {
+  color: #008000;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.stat-item p {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #333;
+}
+
+.goal-status-list h3 {
+  margin-bottom: 10px;
+  color: #555;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.goal-status-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.goal-status-list li {
+  padding: 8px 0;
+  border-bottom: 1px dotted #eee;
+  color: #666;
+}
+
+.goal-status-list li:last-child {
+  border-bottom: none;
+}
+
+.goal-status-list li.completed {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.goal-status-list li.warning {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.goal-status-list li.overdue {
+  color: #dc3545;
+  font-weight: bold;
+}

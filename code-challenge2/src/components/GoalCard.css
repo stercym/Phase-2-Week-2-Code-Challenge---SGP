@@ -1,0 +1,69 @@
+.goal-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.goal-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.goal-card p {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.goal-card .deadline-status {
+  font-weight: bold;
+}
+
+.goal-card.warning {
+  border-color: #ffc107;
+  background-color: #fff3cd;
+}
+
+.goal-card.overdue {
+  border-color: #dc3545;
+  background-color: #f8d7da;
+}
+
+.goal-card.completed {
+  border-color: #28a745;
+  background-color: #d4edda;
+}
+
+.goal-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.goal-actions button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.goal-actions button:first-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.goal-actions button:first-child:hover {
+  background-color: #0056b3;
+}
+
+.goal-actions button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.goal-actions button:last-child:hover {
+  background-color: #c82333;
+}
